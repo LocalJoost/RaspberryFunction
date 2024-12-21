@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "RaspberryFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7141"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 31829,
+      "useSSL": false
+    }
+  }
+}
